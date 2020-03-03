@@ -2,8 +2,6 @@ require("dotenv").config();
 
 var keys = require("./keys");
 var Spotify = require('node-spotify-api');
-
-
 var axios = require("axios");
 
 var command=process.argv[2]
@@ -52,6 +50,9 @@ function searchConcert() {
      console.log("date", concertList[i].datetime)
      }
  })
+ .catch(function(err) {
+    console.log(err);
+  });
 }
 
 function searchSpotify() {
@@ -88,13 +89,25 @@ function searchSpotify() {
 }
 
 function searchMovie() {
-
-}
+    axios
+      .get(
+        'http://www.omdbapi.com/?t=' + keyword + '&y=&plot=short&apikey=trilogy'
+      )
+      .then(function(response) {
+        console.log(response.data);
+        console.log('title', response.data.Title);
+        console.log('year', response.data.Year);
+        console.log('rating', response.data.imdbRating);
+        console.log('country', response.data.Country);
+        console.log('language', response.data.Language);
+        console.log('plot', response.data.Plot);
+        console.log('actors', response.data.Actors);
+        console.log('________________________________\n');
+      });
+  }
 
 function searchAnything() {
 
 }
-
-
 
   console.log(process.argv);
