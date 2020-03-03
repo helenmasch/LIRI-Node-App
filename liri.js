@@ -3,6 +3,7 @@ require("dotenv").config();
 var keys = require("./keys");
 var Spotify = require('node-spotify-api');
 var axios = require("axios");
+var fs = require("fs-extra");
 
 var command=process.argv[2]
 var keyword=process.argv.slice(3).join(" ")
@@ -89,10 +90,8 @@ function searchSpotify() {
 }
 
 function searchMovie() {
-    axios
-      .get(
-        'http://www.omdbapi.com/?t=' + keyword + '&y=&plot=short&apikey=trilogy'
-      )
+    axios.get('http://www.omdbapi.com/?t=' + keyword + '&y=&plot=short&apikey=trilogy')
+
       .then(function(response) {
         console.log(response.data);
         console.log('title', response.data.Title);
@@ -106,8 +105,10 @@ function searchMovie() {
       });
   }
 
-function searchAnything() {
-
+    function searchAnything() {
+    
+    // attempting to add the variable to search the random.txt file
+        // var fs = new fs(random.spotify);
 }
 
   console.log(process.argv);
