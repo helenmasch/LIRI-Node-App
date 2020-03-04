@@ -73,9 +73,6 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 
      * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 
-     * It's on Netflix!
-
-   * You'll use the `axios` package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`.
 
 4. `node liri.js do-what-it-says`
 
@@ -83,6 +80,4 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-     * Edit the text in random.txt to test out the feature for movie-this and concert-this.
-
-     
+![Concert This](concert-this.png)
