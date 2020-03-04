@@ -81,10 +81,10 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
 ![Concert This](/images/concert-this.png)
-![Spotify This Song](spotify-this-song.png)
-![Spotify This Song, con't](spotify-this-song-console-log.png)
-![Movie This](movie-this.png)
-![Do What It Says](do-what-it-says.png)
+![Spotify This Song](/images/spotify-this-song.png)
+![Spotify This Song, con't](/images/spotify-this-song-console-log.png)
+![Movie This](/images/movie-this.png)
+![Do What It Says](/images/do-what-it-says.png)
 
 ### Link
 * https://helenmasch.github.io/LIRI-Node-App/
