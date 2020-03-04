@@ -85,7 +85,6 @@ function searchSpotify() {
              console.log("album name", songList[i].album.name)
              console.log("________________________________\n")
        }
-
     });
 }
 
