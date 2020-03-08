@@ -108,11 +108,17 @@ function searchMovie() {
     
     // attempting to add the variable to search the random.txt file
     // still is not logging spotify-this-song but it is functioning and providing some kind of function
-    
-    fs.appendFile("random.txt", fs, 
-    function(err) {
+
+
+    fs.readFile("random.txt", "utf8", 
+    function(err, data) {
         if (err) return console.error(err);
-        console.log(fs)
+
+       var arrayData = data.split(",")
+       command = arrayData[0]
+       keyword = arrayData[1]
+
+        startSearch()
     })
 }
 
