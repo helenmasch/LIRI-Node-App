@@ -84,7 +84,7 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 ![Spotify This Song](/Images/spotify-this-song.png)
 ![Spotify This Song, con't](/Images/spotify-this-song-console-log.png)
 ![Movie This](/Images/movie-this.png)
-![Do What It Says](/Images/do-what-it-says.png)
+![Do What It Says](/Images/do-what-it-says-search.png)
 
 ### Link
 * https://helenmasch.github.io/LIRI-Node-App/
