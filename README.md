@@ -80,7 +80,7 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-Concert This<br>![](./images/concert-this.png)
+Concert This<br>![](images/concert-this.png)
 ![Spotify This Song](/images/spotify-this-song.png)
 ![Spotify This Song, con't](/images/spotify-this-song-console-log.png)
 ![Movie This](/images/movie-this.png)
