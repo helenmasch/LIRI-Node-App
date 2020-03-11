@@ -82,9 +82,15 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 
 ## Concert This <br>
 ![Concert This](/Images/concert-this.png)
+
+## Spotify This Song <br>
 ![Spotify This Song](/Images/spotify-this-song.png)
 ![Spotify This Song, con't](/Images/spotify-this-console-log.png)
+
+## Movie This <br>
 ![Movie This](/Images/movie-this.png)
+
+## Do What It Says <br>
 ![Do What It Says](/Images/do-what-it-says.png)
 ![Do What It Says](/Images/do-what-it-says-search.png)
 
