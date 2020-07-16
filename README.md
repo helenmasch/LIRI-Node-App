@@ -4,7 +4,7 @@ This assignment uses Speech Interpretation and Recognition Interface, also known
 
 ### Before You Begin
 
-1. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+1. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB (Open Movie Database) for movies.
 
 2. To retrieve the data that will power this app, you'll need to send requests using the `axios` package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
